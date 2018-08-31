@@ -1,0 +1,7 @@
+.file-list-content {
+  &:hover {
+    -webkit-box-shadow:rgb(193, 179, 193) 0px 3px 10px;
+    -moz-box-shadow:rgb(193, 179, 193) 0px 3px 10px;
+    box-shadow:rgb(193, 179, 193) 0px 3px 10px;
+  }
+}

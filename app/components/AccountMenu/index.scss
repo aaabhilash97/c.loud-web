@@ -1,0 +1,24 @@
+.accout-menu-dropdown {
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.2s;
+  -webkit-box-shadow:rgb(193, 179, 193) 0px 3px 10px;
+  -moz-box-shadow:rgb(193, 179, 193) 0px 3px 10px;
+  box-shadow:rgb(193, 179, 193) 0px 3px 10px;
+  padding: 1px 10px 1px 10px;
+
+  a {
+    line-height: 42px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+    &:hover {
+      color: #d1c8c8;
+    }
+  }
+}
